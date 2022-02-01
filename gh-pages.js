@@ -3,7 +3,7 @@ var ghpages = require('gh-pages');
 ghpages.publish(
     'public', // path to public directory
     {
-        branch: 'gh-pages',
+        branch: 'master',
         repo: 'https://github.com/annieefu/chinatown.git', // Update to point to your repository  
         user: {
             name: 'Annie Fu', // update to use your name
