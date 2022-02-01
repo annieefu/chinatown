@@ -7,3 +7,4 @@ This project was researched, reported, and coded by Annie Fu.
 It was built entirely in Svelte.
 
 It was published on February 1, 2022.
+# det-chinatown
