@@ -43,6 +43,7 @@
             z-index: 99;
             margin-left: 32%;
             /* margin-left: 4% */
+            color: #333
         }
 
        
@@ -63,7 +64,60 @@
     
       .active {
         /* background-color: lightgrey; */
-        color: black;
+        /* color: black; */
       }
+
+
+  @media (max-width: 840px){
+    .step-text{
+            /* padding: 2%; */
+            text-align: left;
+            font-size: 1.15rem;
+            /* letter-spacing: 1.4; */
+            width: 105%;
+            height: inherit;
+            z-index: 99;
+            margin-left: 30%;
+            /* margin-left: 4% */
+        }
+  }
+
+
+  @media (max-width: 680px){
+      .step-text{
+            /* padding: 2%; */
+            text-align: left;
+            font-size: 1.15rem;
+            /* letter-spacing: 1.4; */
+            width: 100vw;
+            height: inherit;
+            z-index: 99;
+            margin-left: 30%;
+            /* margin-left: 4% */
+            color : #333;
+        }
+
+  }
+
+
+  @media (max-width: 640px){
+
+    .step-text{
+            /* padding: 2%; */
+            text-align: left;
+            font-size: 1.15rem;
+            /* letter-spacing: 1.4; */
+            width: 150vw;
+            height: inherit;
+            z-index: 99;
+            margin-left: 10%;
+            /* margin-left: 4% */
+            color : #333;
+        opacity: .9;
+        }
+
+  }
+
+
       
     </style>

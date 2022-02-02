@@ -19,7 +19,7 @@
     <h1>Chinatown</h1>
     <h1>Crowd</h1>
     <h2 class="subtitle"><b>By Annie Fu</b></h2>
-    <p class="subtitle">
+    <p class="subtitle" style="color: #fff;">
       {@html text}
     </p>
   </div>
@@ -45,8 +45,9 @@
 
   #title-img {
     /* max-height: 90vh; */
-    width: 60%;
-    margin-left: 32%;
+    width: 65%;
+    min-width: 60%;
+    margin-left: 34%;
     visibility: visible;
     display: block;
     margin-top: 2rem;
@@ -117,7 +118,7 @@
     }
 
     .subtitle {
-        margin-top: 2rem;
+        margin-top: 4rem;
         min-width: 80%;
         width: 70vw;
     }
@@ -166,7 +167,42 @@
       display: block;
       max-width: 80vw;
       position: relative;
+      margin-top: 2rem;
     }
+  }
+
+  
+  @media (max-width: 700px) {
+
+    .title-img {
+      visibility: visible;
+      display: block;
+      max-width: 90vw;
+      /* max-width: 90vw; */
+      position: relative;
+      margin-top: 2rem;
+    }
+
+
+  .title-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 2%;
+    /* padding-left: 20vw; */
+  }
+
+  }
+
+
+  @media (max-width: 500px) {
+
+    .the{
+      font-size: 1.5rem;
+    }
+h1{
+  font-size: 5rem;
+}
   }
 
   /* .active {

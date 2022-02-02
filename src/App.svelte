@@ -43,8 +43,25 @@ import MobileTitle from "./MobileTitle.svelte";
   ];
 
   const alts = [
+    "A photo of a vertical octogonal kiosk, with Mandarin characters on some panels. One panel has English: 'Welcome to Chinatown.' The top fourth of the photo has an artistic light leak, symbolizing erasure. ",
     "A black and white photo of a crowded street, celebrating outside a storefront that reads 'Chungs Chop Suey.' ",
-    "A black and white photo of a crowded street, celebrating outside a storefront that reads 'Chungs Chop Suey.' ",
+    "A hazy, dark and grainy photo of an empty intersection.",
+    "A black and white photo of a group of people, most of them Asian. A man wears a traditional Chinese lion dancing costume.",
+    "An empty gravel parking lot with some run-down infrastructure throughout. In the distance, a large derelict building with a pagoda-style roof.",
+    "The side of a building, with faint lettering spelling out 'Chung's' in capital letters. The remnants of a sign.",
+    "A tree stands in front of a building facade with four Mandarin characters. There's grafitti throughout the facade. On either side of the tree, pools of red leaves evoke an eerie feeling.",
+    "A black and white image shot down a street, showing many different business signs, including 'Chung's Cantonese Cuisine', 'Grocerland Market', 'Shanghai Chop Suey', and more.",
+    "A red and white abandoned restaurant facade, with the signange 'Chung's Cantonese Cuisine.' The building has a pagoda-style roof.",
+    "A boarded-over abandoned building, with broken signage frames and exposed plumbing.",
+    "A photo down an empty street, with an abandoned brown building to the right. The windows have all been boarded over. There are no recognizable features, other than the general shape of the facade.",
+    "A brown building facade, with a painted over sign. The old letters of the sign slightly show through: 'Shanghai Cafe. Free Parking in rear.'",
+    "A black and white photo of a parade. Two men at the front of the parade hold flags, one an American flag and the other a Taiwanese flag. Behind them, men wear a traditional Chinese lion dancing costume.",
+    "Two men walk down a crowded street in a traditional Chinese lion-dancing costume.",
+    "A color photo of an octogonal vertical kiosk, with English and Mandarin characters. The English characters say 'Welcome to Chinatown.'",
+    "",
+    "A colorful flyer, with the headline 'People and Places of the Cass Corridor: Community Meeting.'",
+    "Two men walk down a crowded street in a traditional Chinese lion-dancing costume.",
+    ""
   ];
 
   const texts = [
@@ -71,7 +88,7 @@ import MobileTitle from "./MobileTitle.svelte";
     "<p style='background-color: white; padding: 15px'>At the time of the clearance announcement, the general feeling amongst the residents was that the" +
       " destruction of their Chinatown, despite a planned relocation, would mean the end of their ethnic community. ",
 
-    "<p>Facing no other options, cornerstone businesses of the community, including the famous Chung’s Chop Suey restaurant and the On Leong Chinese Merchants Association, led the transition to the new area.</p><br/><br/>",
+    "<p>Facing no other options, cornerstone businesses of the community, including the famous Chung’s Chop Suey restaurant and the On Leong Chinese Merchants Association, led the transition to the new area.</p>",
     "<p style='background-color: white; padding: 15px'>The relocated neighborhood celebrated a brief period of success.</p> " +
       "<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'>However, a series of crimes shook up the community in the mid-70s: on " +
       "August 5, 1976, community leader Tommie Lee was murdered in a hold-up of his" +
@@ -96,13 +113,13 @@ import MobileTitle from "./MobileTitle.svelte";
 	"<p>Though the characteristic rectangular pane windows have been boarded up and the entirety of the facade painted brown, the sign for the Shanghai Cafe remains posted, with faint markings inviting visitors to free parking in the rear lot.</p>",
 	"<p style='background-color: white; padding: 15px'>The same Shanghai Cafe sign appears in its original white paint in the center of this archived photograph from the Detroit Free Press archives, tucked behind a silver post. </p>"+
 	"<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'>When the new Chinatown opened in 1963, the facades of Shanghai Cafe, On Leong, and Chung’s saw parades and lion dances celebrating the beginning of a new community.</p>",
-	"<p style='background-color: white; padding: 15px'>The Free Press reported “500 chinese merchants came to Detroit from all parts of the United States to join the convention and to congratulate the Detroit Chinese on their achievement; <b>the opening of the new Chinatown.”</b></p> ",
+	"<p style='background-color: white; padding: 15px'>The Free Press reported that “500 chinese merchants came to Detroit from all parts of the United States to join the convention and to congratulate the Detroit Chinese on their achievement; <b>the opening of the new Chinatown.”</b></p> ",
 	"<p style='background-color: white; padding: 15px'>Just under two decades later, during a period of escalating crime rates and flight to the suburbs, reporter Sally Smith wrote a Free Press article about the “Welcome to Chinatown” kiosk in April of 1980:</p>"+
 	"<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'><q><i>Despite the red banners on the street corners, and the shops with all the right names—Wing Lee Lung Chinese Vegetable Co., Yee Yuen, Yun Hop, and Bow Wah’s Chop Suey—the sign that says ‘Welcome to Detroit’s Chinatown’ seems mostly a bleak attempt to force a sense of liveliness on a fragile reality.</i></q></p>"+
-	"<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'>Perhaps a bleak attempt, but an attempt nonetheless. The remaining relic in Chinatown has seen both better and worse days throughout the past half-century. After a bout of graffiti marred the original lettering in 2016, it was restored to the current form. I couldn’t help but think about Smith's quote.</p> "+
-	"<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'>Amidst all the emptied and fading buildings in the area, revitalizing a sign welcoming people to something that no longer exists indeed feels futile. But also recklessly auspicious. <br/><br/> It feels as if people haven’t completely forgotten about Chinatown and what it means to Detroit, despite the surrounding reality stating otherwise.</p>",
-	"<p style='padding: 15px; background-color: white;'>On November 17th, 2020, the Detroit City Council Historic Designation Advisory Board held a community meeting titled the “People and Places of the Cass Corridor,” calling for citizens to “learn more about the Cass Corridor architectural, cultural, and ethnic survey and ways to get involved!”</p>",
-	"<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='padding: 15px; background-color: white; color: #333;'>When I set out to find more information on the meeting, all I found was the event flyer, which featured three vibrant side-by-side images. <br/><br/<br/>The first, a clean-cut skyscraper downtown. <br/> <br/>The second, a lyric from the 1966 Youngbloods classic “Get Together”: “smile on your brother / everybody get together.” <br/><br/>The third? A black and white photo of a crowd, all gathered around a dancing lion: the 1963 re-opening celebration of Detroit’s Chinatown.</p>",
+	"<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'>Perhaps a bleak attempt, but an attempt nonetheless. The remaining relic in Chinatown has seen both better and worse days throughout the past half-century. <br/><br/> After a bout of graffiti marred the original lettering in 2016, it was quietly restored overnight one day.<br/><br/> Seeing the refurbished kiosk stand amongst all the surrounding ruin, I couldn’t help but think about Smith's quote.</p> "+
+	"<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'>Amidst derelict and fading buildings in the area, revitalizing a sign welcoming people to something that no longer exists indeed feels futile. But also recklessly auspicious. <br/><br/> It feels as if people haven’t completely forgotten about Chinatown and what it means to Detroit, despite the surrounding reality stating otherwise.</p>",
+	"<p style='padding: 15px; background-color: white;' class='alone'>On November 17th, 2020, the Detroit City Council Historic Designation Advisory Board held a community meeting titled the “People and Places of the Cass Corridor,” calling for citizens to “learn more about the Cass Corridor architectural, cultural, and ethnic survey and ways to get involved!”</p>",
+	"<p style='padding: 15px; background-color: white; color: #333;'>When I set out to find more information on the meeting, all I found was the event flyer, which featured three vibrant side-by-side images. <br/><br/<br/>The first, a clean-cut skyscraper downtown. <br/> <br/>The second, a lyric from the 1966 Youngbloods classic “Get Together”: “smile on your brother / everybody get together.” <br/><br/>The third? A black and white photo of a crowd, all gathered around a dancing lion: the 1963 re-opening celebration of Detroit’s Chinatown.</p>",
 
 	"<p></p>"
 	
@@ -241,7 +258,7 @@ import MobileTitle from "./MobileTitle.svelte";
 
 
       <br/><br/><br/><br/>
-	  <p>Thank you so much for reading. This was researched, reported, and coded by Annie Fu. If you have any questions or comments, please reach out to me at <a href='mailto:annieccfu@gmail.com'>annieccfu@gmail.com</a>.</p><br/><br/><br/><br/>
+	  <p style="color: #fff; padding: 2rem;">Thank you so much for reading. This was researched, reported, and coded by Annie Fu. If you have any questions or comments, please reach out to me at <a href='mailto:annieccfu@gmail.com'>annieccfu@gmail.com</a>.</p><br/><br/><br/><br/>
       
 
       <!-- {@debug currentStep} -->
@@ -258,8 +275,9 @@ import MobileTitle from "./MobileTitle.svelte";
   main {
     text-align: center;
     padding: 0.5em;
-    max-width: 240px;
-    margin: 0 auto;
+    /* max-width: 240px; */
+    margin: 0;
+    /* min-width: 100vw; */
   }
 
   h1 {
@@ -273,7 +291,7 @@ import MobileTitle from "./MobileTitle.svelte";
     /* height: 90vh; */
     display: flex;
     place-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     margin-bottom: 18rem;
     z-index: 99;
   }
@@ -281,7 +299,7 @@ import MobileTitle from "./MobileTitle.svelte";
   .step-long {
     display: flex;
     place-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     margin-bottom: 18rem;
     z-index: 99;
     height: 240vh;
@@ -340,7 +358,7 @@ import MobileTitle from "./MobileTitle.svelte";
   }
 
   .half {
-    width: 40vw;
+    width: 44vw;
     margin-left: 38%;
     position: sticky;
     max-height: 92vh;
@@ -368,12 +386,15 @@ import MobileTitle from "./MobileTitle.svelte";
   /* full and short */
   .full {
 	min-width: 62vw;
-    max-width: 98vw;
-    max-height: 96vh;
-    margin-top: -2vh;
+  min-height: 80vh;
+  object-fit: cover;
+    max-width: 96vw;
+    max-height: 92vh;
+    /* margin-top: -4vh; */
+    margin-bottom: 0vh;
     text-align: center;
     z-index: 1;
-    margin-left: -4%;
+    margin-left: -1%;
   }
 
   .title {
@@ -421,11 +442,80 @@ import MobileTitle from "./MobileTitle.svelte";
     }
   }
 
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
+  @media (max-width: 840px){
+    .desktop{
+      max-width: 92vw;
+      margin: 0;
     }
+
+    .full {
+	  min-width: 70vw;
+    /* max-width: 98vw; */
+    object-fit: cover;
+    max-height: 100vh;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 1;
+    margin-left: -2%;
+  }
+  }
+
+
+  @media (max-width: 680px) {
+
+    .img-container{
+      margin-left: 0;
+    }
+    
+    main {
+    text-align: center;
+    padding: .5rem;
+    /* max-width: 96vw; */
+    margin: 0;
+  }
+
+
+  @media (max-width: 640px) {
+    
+  .half {
+	  min-width: 70vw;
+    /* max-width: 98vw; */
+    object-fit: cover;
+    max-height: 98vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 1;
+    margin-left: -2%;
+  }
+
+  .half-short {
+	  min-width: 70vw;
+    /* max-width: 98vw; */
+    object-fit: cover;
+    max-height: 98vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 1;
+    margin-left: -2%;
+  }
+
+    
+  }
+
+
+  @media (max-width: 640px) {
+
+    .alone{
+      margin-top: 30rem;
+    }
+
+  }
 
 	/* full and short */
 	

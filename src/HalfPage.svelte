@@ -36,7 +36,7 @@ export let text;
         font-size: 1.15rem;
         letter-spacing: 1.4;
         width: 40%;
-        height: inherit;
+        /* height: inherit; */
 	z-index: 99;
         /* margin-left: 4% */
     }
@@ -56,6 +56,32 @@ export let text;
   .active {
     /* background-color: lightgrey; */
     /* color: black; */
+  }
+
+
+  @media (max-width: 640px) {
+
+
+    .step-text{
+            /* padding: 2%; */
+            text-align: left;
+            font-size: 1.15rem;
+            /* letter-spacing: 1.4; */
+            width: 150vw;
+            height: inherit;
+            z-index: 99;
+            margin-left: 8%;
+            /* margin-left: 4% */
+            background-color: white;
+            padding: 15px;
+            color: #333;
+            opacity: .9;
+        }
+
+        .step-cont{
+            height: inherit;
+        }
+
   }
 
   
