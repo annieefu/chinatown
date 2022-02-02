@@ -45,13 +45,14 @@
 
   #title-img {
     /* max-height: 90vh; */
-    width: 65%;
+    width: 62%;
     min-width: 60%;
     margin-left: 34%;
     visibility: visible;
     display: block;
     margin-top: 2rem;
     border-radius: .5rem;
+    /* max-height: 96vh; */
   }
 
   .title-text {
