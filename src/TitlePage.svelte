@@ -40,16 +40,17 @@
   }
 
   .title {
-    height: 90vh;
+    height: 95vh;
   }
 
   #title-img {
     /* max-height: 90vh; */
     width: 60%;
-    margin-left: 30%;
+    margin-left: 32%;
     visibility: visible;
     display: block;
     margin-top: 2rem;
+    border-radius: .5rem;
   }
 
   .title-text {
@@ -64,7 +65,7 @@
     display: flex;
     flex-direction: row;
     text-align: left;
-    margin: 0 5% 5% 5%;
+    margin: 0 5% 8% 5%;
     /* padding-left: 20vw; */
   }
 

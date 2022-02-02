@@ -229,8 +229,20 @@ import MobileTitle from "./MobileTitle.svelte";
         </div>
       {/each}
       <!-- </div> -->
-	  <p>Thank you so much for reading. This was researched, reported, and coded by Annie Fu. If you have any questions or comments, please reach out to me at <a href='mailto:annieccfu@gmail.com'>annieccfu@gmail.com</a>.</p><br/><br/><br/><br/>
+      <br/><br/><br/><br/>
+        <div class="references">
+          <h3>References</h3>
+          Courtesy of the Walter P. Reuther Library, Wayne State University
 
+
+
+        </div>
+
+
+
+      <br/><br/><br/><br/>
+	  <p>Thank you so much for reading. This was researched, reported, and coded by Annie Fu. If you have any questions or comments, please reach out to me at <a href='mailto:annieccfu@gmail.com'>annieccfu@gmail.com</a>.</p><br/><br/><br/><br/>
+      
 
       <!-- {@debug currentStep} -->
     </Scrolly>
@@ -332,7 +344,7 @@ import MobileTitle from "./MobileTitle.svelte";
     margin-left: 38%;
     position: sticky;
     max-height: 92vh;
-    margin-top: 1.5rem;
+    margin-top: .5rem;
     border-radius: .5rem;
   }
 
@@ -341,7 +353,7 @@ import MobileTitle from "./MobileTitle.svelte";
     margin-left: 0%;
     position: sticky;
     max-height: 92vh;
-    margin-top: 1.5rem;
+    margin-top: -1rem;
     border-radius: .5rem;
   }
 
@@ -358,6 +370,7 @@ import MobileTitle from "./MobileTitle.svelte";
 	min-width: 62vw;
     max-width: 98vw;
     max-height: 96vh;
+    margin-top: -2vh;
     text-align: center;
     z-index: 1;
     margin-left: -4%;
@@ -379,6 +392,7 @@ import MobileTitle from "./MobileTitle.svelte";
     visibility: hidden;
     max-height: 90vh;
     /* position: relative; */
+    margin-top: 3vh;
     position: absolute;
     z-index: 1;
     text-align: center;
