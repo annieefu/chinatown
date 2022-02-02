@@ -44,12 +44,11 @@ import MobileTitle from "./MobileTitle.svelte";
 
   const alts = [
     "A black and white photo of a crowded street, celebrating outside a storefront that reads 'Chungs Chop Suey.' ",
-
     "A black and white photo of a crowded street, celebrating outside a storefront that reads 'Chungs Chop Suey.' ",
   ];
 
   const texts = [
-    "In Midtown Detroit, the blocks surrounding the Cass Corridor and Peterboro Street intersection contain the only recognizable remnants of a once-promising Chinatown.",
+    "In Midtown Detroit, the blocks surrounding Cass Corridor and Peterboro Street contain the only recognizable remnants of a once-promising Chinatown.",
     "<p> Detroit’s Chinatown first flourished in the 1920s, " +
       "from the blocks between Third Avenue, Bagley Street, and Porter Street, writes" +
       " author and activist Helen Zia in “Asian American Dreams: The Emergence of an " +
