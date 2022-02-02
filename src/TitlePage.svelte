@@ -49,6 +49,7 @@
     margin-left: 30%;
     visibility: visible;
     display: block;
+    margin-top: 2rem;
   }
 
   .title-text {

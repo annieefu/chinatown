@@ -252,7 +252,7 @@ import MobileTitle from "./MobileTitle.svelte";
   }
 
   h1 {
-    color: #ff3e00;
+    color: #642020;
     text-transform: uppercase;
     font-size: 4em;
     font-weight: 100;
@@ -325,6 +325,7 @@ import MobileTitle from "./MobileTitle.svelte";
     position: sticky;
     max-height: 92vh;
     margin-top: 1.5rem;
+    border-radius: .5rem;
   }
 
   .half2 {
@@ -333,6 +334,7 @@ import MobileTitle from "./MobileTitle.svelte";
     position: sticky;
     max-height: 92vh;
     margin-top: 1.5rem;
+    border-radius: .5rem;
   }
 
   .half-short {
@@ -340,6 +342,7 @@ import MobileTitle from "./MobileTitle.svelte";
     margin-left: 38%;
     margin-top: 10vh;
     position: sticky;
+    border-radius: .5rem;
   }
 
   /* full and short */

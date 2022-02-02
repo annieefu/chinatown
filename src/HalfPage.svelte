@@ -55,7 +55,7 @@ export let text;
 
   .active {
     /* background-color: lightgrey; */
-    color: black;
+    /* color: black; */
   }
 
   
