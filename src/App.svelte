@@ -72,7 +72,7 @@ import MobileTitle from "./MobileTitle.svelte";
     "<p style='background-color: white; padding: 15px'>At the time of the clearance announcement, the general feeling amongst the residents was that the" +
       " destruction of their Chinatown, despite a planned relocation, would mean the end of their ethnic community. ",
 
-    "<p style='background-color: white;'>Facing no other options, cornerstone businesses of the community, including the famous Chung’s Chop Suey restaurant and the On Leong Chinese Merchants Association, led the transition to the new area.</p><br/><br/>",
+    "<p>Facing no other options, cornerstone businesses of the community, including the famous Chung’s Chop Suey restaurant and the On Leong Chinese Merchants Association, led the transition to the new area.</p><br/><br/>",
     "<p style='background-color: white; padding: 15px'>The relocated neighborhood celebrated a brief period of success.</p> " +
       "<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'>However, a series of crimes shook up the community in the mid-70s: on " +
       "August 5, 1976, community leader Tommie Lee was murdered in a hold-up of his" +
