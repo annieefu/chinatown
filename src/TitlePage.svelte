@@ -19,7 +19,7 @@
     <h1>Chinatown</h1>
     <h1>Crowd</h1>
     <h2 class="subtitle"><b>By Annie Fu</b></h2>
-    <p class="subtitle" style="color: #fff;">
+    <p class="subtitle" style="color: #c4c4c4;">
       {@html text}
     </p>
   </div>
