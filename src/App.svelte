@@ -72,7 +72,7 @@ import MobileTitle from "./MobileTitle.svelte";
     "<p style='background-color: white; padding: 15px'>At the time of the clearance announcement, the general feeling amongst the residents was that the" +
       " destruction of their Chinatown, despite a planned relocation, would mean the end of their ethnic community. ",
 
-    "<p style='background-color: white;'>Facing no other options, cornerstone businesses of the community, including the famous Chung’s Chop Suey restaurant and the On Leong Chinese Merchants Association, led the transition to the new area.</p><br/><br/>",
+    "<p>Facing no other options, cornerstone businesses of the community, including the famous Chung’s Chop Suey restaurant and the On Leong Chinese Merchants Association, led the transition to the new area.</p><br/><br/>",
     "<p style='background-color: white; padding: 15px'>The relocated neighborhood celebrated a brief period of success.</p> " +
       "<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'>However, a series of crimes shook up the community in the mid-70s: on " +
       "August 5, 1976, community leader Tommie Lee was murdered in a hold-up of his" +
@@ -102,8 +102,8 @@ import MobileTitle from "./MobileTitle.svelte";
 	"<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'><q><i>Despite the red banners on the street corners, and the shops with all the right names—Wing Lee Lung Chinese Vegetable Co., Yee Yuen, Yun Hop, and Bow Wah’s Chop Suey—the sign that says ‘Welcome to Detroit’s Chinatown’ seems mostly a bleak attempt to force a sense of liveliness on a fragile reality.</i></q></p>"+
 	"<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'>Perhaps a bleak attempt, but an attempt nonetheless. The remaining relic in Chinatown has seen both better and worse days throughout the past half-century. After a bout of graffiti marred the original lettering in 2016, it was restored to the current form. I couldn’t help but think about Smith's quote.</p> "+
 	"<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'>Amidst all the emptied and fading buildings in the area, revitalizing a sign welcoming people to something that no longer exists indeed feels futile. But also recklessly auspicious. <br/><br/> It feels as if people haven’t completely forgotten about Chinatown and what it means to Detroit, despite the surrounding reality stating otherwise.</p>",
-	"<p>On November 17th, 2020, the Detroit City Council Historic Designation Advisory Board held a community meeting titled the “People and Places of the Cass Corridor,” calling for citizens to “learn more about the Cass Corridor architectural, cultural, and ethnic survey and ways to get involved!”</p>",
-	"<p>When I set out to find more information on the meeting, all I found was the event flyer, which featured three vibrant side-by-side images. The first, a clean-cut skyscraper downtown. The second, a lyric from the 1966 Youngbloods classic “Get Together”: “smile on your brother / everybody get together.” <br/>The third? A black and white photo of a crowd, gathered around a dancing lion: the 1963 re-opening celebration of Detroit’s Chinatown.</p>",
+	"<p style='padding: 15px; background-color: white;'>On November 17th, 2020, the Detroit City Council Historic Designation Advisory Board held a community meeting titled the “People and Places of the Cass Corridor,” calling for citizens to “learn more about the Cass Corridor architectural, cultural, and ethnic survey and ways to get involved!”</p>",
+	"<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='padding: 15px; background-color: white; color: #333;'>When I set out to find more information on the meeting, all I found was the event flyer, which featured three vibrant side-by-side images. <br/><br/<br/>The first, a clean-cut skyscraper downtown. <br/> <br/>The second, a lyric from the 1966 Youngbloods classic “Get Together”: “smile on your brother / everybody get together.” <br/><br/>The third? A black and white photo of a crowd, all gathered around a dancing lion: the 1963 re-opening celebration of Detroit’s Chinatown.</p>",
 
 	"<p></p>"
 	
@@ -136,7 +136,7 @@ import MobileTitle from "./MobileTitle.svelte";
     "step",
     "step-long1",
     "step",
-    "step",
+    "step-long",
     "step",
     "step-long2",
     "step",
@@ -267,6 +267,15 @@ import MobileTitle from "./MobileTitle.svelte";
     z-index: 99;
   }
 
+  .step-long {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    margin-bottom: 18rem;
+    z-index: 99;
+    height: 240vh;
+  }
+
   .step-long1 {
     display: flex;
     place-items: center;
@@ -347,7 +356,7 @@ import MobileTitle from "./MobileTitle.svelte";
 
   /* full and short */
   .full {
-	min-width: 55vw;
+	min-width: 62vw;
     max-width: 98vw;
     max-height: 96vh;
     text-align: center;
