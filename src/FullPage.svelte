@@ -13,9 +13,7 @@
         <div class = "step-text">
             {@html text}
         </div>
-        <div class = "step-img">
-            <!-- <img class="step-image" src={image} alt={alt}/> -->
-        </div>
+       
        
     </div>
     
@@ -23,10 +21,10 @@
         .step-cont{
             display: flex;
             flex-direction: row;
-            padding: 3%;
-            margin-left: 5%;
+            /* padding: 3%; */
+            /* margin-left: 5%;
             margin-right: 5%;
-            width: 100%;
+            width: 100%; */
             height: 90vh;
             margin-bottom: 20vh;
             z-index: 20;
@@ -38,10 +36,12 @@
             text-align: left;
             font-size: 1.15rem;
             /* letter-spacing: 1.4; */
-            width: 65%;
+            width: 40%;
             height: inherit;
             z-index: 99;
-            margin-left: 32%;
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
             /* margin-left: 4% */
             color: #333
         }
@@ -74,27 +74,36 @@
             text-align: left;
             font-size: 1.15rem;
             /* letter-spacing: 1.4; */
-            width: 105%;
+            width: 50vw;
             height: inherit;
             z-index: 99;
-            margin-left: 30%;
+
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
             /* margin-left: 4% */
+            color : #333;
+        opacity: .9;
         }
   }
 
 
   @media (max-width: 680px){
-      .step-text{
+    .step-text{
             /* padding: 2%; */
             text-align: left;
             font-size: 1.15rem;
             /* letter-spacing: 1.4; */
-            width: 100vw;
+            width: 50vw;
             height: inherit;
             z-index: 99;
-            margin-left: 30%;
+
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
             /* margin-left: 4% */
             color : #333;
+        opacity: .9;
         }
 
   }
@@ -107,10 +116,13 @@
             text-align: left;
             font-size: 1.15rem;
             /* letter-spacing: 1.4; */
-            width: 150vw;
+            width: 60vw;
             height: inherit;
             z-index: 99;
-            margin-left: 10%;
+
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
             /* margin-left: 4% */
             color : #333;
         opacity: .9;

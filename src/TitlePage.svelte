@@ -181,15 +181,19 @@
       max-width: 90vw;
       /* max-width: 90vw; */
       position: relative;
+      margin-left: auto;
+      margin-right:auto;
       margin-top: 2rem;
     }
 
 
   .title-content {
-    display: flex;
+    display: flexbox;
     flex-direction: column;
     text-align: left;
-    margin: 2%;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
     /* padding-left: 20vw; */
   }
 
@@ -203,6 +207,20 @@
     }
 h1{
   font-size: 5rem;
+}
+
+
+.subtitle{
+
+  line-height: 1.6;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2rem;
+    min-width: 40%;
+    width: 90vw;
+    margin-top: 2rem;
+
 }
   }
 

@@ -21,10 +21,7 @@ export let text;
     .step-cont{
         display: flex;
         flex-direction: row;
-        padding: 3%;
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 100%;
+        padding: 5%;
         height: 90vh;
         margin-bottom: 20vh;
         z-index: 99;
@@ -35,14 +32,14 @@ export let text;
         text-align: left;
         font-size: 1.15rem;
         letter-spacing: 1.4;
-        width: 40%;
+        width: 36%;
         /* height: inherit; */
 	z-index: 99;
         /* margin-left: 4% */
     }
 
     .step-img{
-        width: 60%;
+        width: 50%;
         position: relative;
         text-align: center;
     }
@@ -61,16 +58,23 @@ export let text;
 
   @media (max-width: 640px) {
 
+    .step-img{
+        display: none;
+    }
+
 
     .step-text{
             /* padding: 2%; */
             text-align: left;
             font-size: 1.15rem;
             /* letter-spacing: 1.4; */
-            width: 150vw;
+            width: 60vw;
             height: inherit;
+            display: flexbox;
+            margin-left: auto;
+            margin-right: auto;
             z-index: 99;
-            margin-left: 8%;
+            /* margin-left: 8%; */
             /* margin-left: 4% */
             background-color: white;
             padding: 15px;

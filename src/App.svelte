@@ -70,7 +70,7 @@
       "American People.” <br/><br/> First led by a group of prominent Chinese business-owning families, including the Yee, Chin, and Chung families," +
       " a wave of immigrants settled into the area and opened restaurants, grocery stores, and even a Chinese school in those first decades.</p>",
 
-    "<p style='background-color: white; padding: 15px'>Today, the original blocks of Chinatown <br/> no longer exist.  <br/><br/>A portion of the John C. Lodge Freeway, " +
+    "<p style='background-color: white; padding: 15px'>Today, the original blocks of Chinatown no longer exist.  <br/><br/>A portion of the John C. Lodge Freeway, " +
       "a parking garage, and a parking lot of the MGM Grand Casino stand in their place.</p> <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>" +
       "<p style='background-color: white; padding: 15px'>The creation of the freeway coincided with the relocation of old Chinatown to Cass" +
       " Corridor in 1963, when generations of Chinese residents and their associated businesses" +
@@ -91,7 +91,7 @@
       "<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'>However, a series of crimes shook up the community in the mid-70s: on " +
       "August 5, 1976, community leader Tommie Lee was murdered in a hold-up of his" +
       " restaurant, Bow Wah. </p>" +
-      "<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'>A few years later, in 1982, 27-year-old Vincent Chin was murdered in " +
+      "<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p style='background-color: white; padding: 15px'>A few years later, in 1982, 27-year-old Vincent Chin was murdered in " +
       "a hate crime. Rooted in anti-Asian sentiment due to the increasing " +
       "success of the Japanese auto industry, the murder served as the catalyst " +
       "for many of the remaining residents to abandon the area.</p>",
@@ -302,7 +302,7 @@
 <style>
   main {
     text-align: center;
-    padding: 0.5em;
+    /* padding: 0.5em; */
     /* max-width: 240px; */
     margin: 0;
     /* min-width: 100vw; */
@@ -317,16 +317,20 @@
 
   .step {
     /* height: 90vh; */
-    display: flex;
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
     place-items: center;
     /* justify-content: center; */
-    margin-bottom: 18rem;
+    margin-bottom: 98vh;
     z-index: 99;
   }
 
   .step-long {
-    display: flex;
+    display: flexbox;
     place-items: center;
+    margin-left: auto;
+    margin-right: auto;
     /* justify-content: center; */
     margin-bottom: 18rem;
     z-index: 99;
@@ -334,8 +338,11 @@
   }
 
   .step-long1 {
-    display: flex;
     place-items: center;
+    display: flexbox;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     margin-bottom: 18rem;
     z-index: 99;
@@ -343,30 +350,41 @@
   }
 
   .step-long2 {
-    display: flex;
     place-items: center;
     justify-content: center;
     margin-bottom: 18rem;
     z-index: 99;
     height: 420vh;
+    place-items: center;
+    display: flexbox;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .step-long3 {
-    display: flex;
     place-items: center;
     justify-content: center;
     margin-bottom: 18rem;
     z-index: 99;
     height: 380vh;
+    place-items: center;
+    display: flexbox;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .step-long4 {
-    display: flex;
-    place-items: center;
     justify-content: center;
     margin-bottom: 18rem;
     z-index: 99;
     height: 650vh;
+    place-items: center;
+    display: flexbox;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .step-content {
@@ -470,7 +488,7 @@
 
   @media (max-width: 840px) {
     .desktop {
-      max-width: 92vw;
+      /* max-width: 92vw; */
       margin: 0;
     }
 
@@ -484,7 +502,7 @@
       vertical-align: middle;
       text-align: center;
       z-index: 1;
-      margin-left: -2%;
+      /* margin-left: -2%; */
     }
   }
 
@@ -495,14 +513,14 @@
 
     main {
       text-align: center;
-      padding: 0.5rem;
+      /* padding: 0.5rem; */
       /* max-width: 96vw; */
       margin: 0;
     }
 
     @media (max-width: 640px) {
       .half {
-        min-width: 70vw;
+        min-width: 80vw;
         /* max-width: 98vw; */
         object-fit: cover;
         max-height: 98vh;
@@ -511,11 +529,14 @@
         vertical-align: middle;
         text-align: center;
         z-index: 1;
-        margin-left: -2%;
+        display: flexbox;
+        margin-left: auto;
+        margin-right: auto;
       }
 
       .half-short {
-        min-width: 70vw;
+        min-width: 80vw;
+        /* min-height: 60vh; */
         /* max-width: 98vw; */
         object-fit: cover;
         max-height: 98vh;
